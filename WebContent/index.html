@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Insert title here</title>
+	<link rel="stylesheet" type="text/css" href="include/myCSS.css"><link>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container" id="sub-container">
+		<div class="panel panel-primary">
+		<div class="panel-heading">
+			<h1>@FormQuery testing</h1>
+		</div>			
+		<div class="panel-body">
+	  		<form action = "rest/users/add" method="post" class="form-inline">
+				<p>Name <input type="text" name="name" class="form-control"></p>
+				<p>Age <input type="text" name="age" class="form-control"></p>
+			</form>
+	    </div>	
+	    <div class="panel-footer">
+				<input type="submit" value="Add user" class="btn btn-primary"></div>     
+	</div>
+	</div>	
+</body>
+</html>
